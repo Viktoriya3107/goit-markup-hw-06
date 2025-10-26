@@ -415,7 +415,7 @@ background-color: #2e2f42;
 .characteristics-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 72px;
+    gap: 72px 24px;
     padding: 16px 0;
     justify-content: space-between;
     box-sizing: border-box;
@@ -632,7 +632,7 @@ background-color: #2e2f42;
         justify-content: center;
         gap: 72px 24px;
     }
-
+       
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
@@ -737,7 +737,8 @@ display: flex;
 }
 
 .footer-header-logo {
-    display: inline-block;
+    display: block;
+     text-align: center;
     margin-bottom: 16px;
     font-size: 18px;
     font-weight: 800;
@@ -822,6 +823,9 @@ display: flex;
         row-gap: 72px;
         column-gap: 24px;
     }
+     .footer-header-logo {
+         display: inline-block;
+         }
 .social-title {
     text-align: left;}
 .footer-bnb {
