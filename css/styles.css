@@ -94,12 +94,12 @@ height: auto;
     border-color: transparent;
  }
  .burger-icon{
-    fill: #2f2f37;
+    fill: #2f2f37;}
      .header-nav {
      display: flex;
      align-items: center;
  }
- }
+ 
  @media screen and (min-width: 768px) {
     .burger-btn {
         display: none;
